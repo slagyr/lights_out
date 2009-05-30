@@ -79,10 +79,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="board.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="board.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lights_out/board/players/board.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="10" selection-start="455" selection-end="455" vertical-scroll-proportion="0.76609445">
+            <state line="14" column="7" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lights_out.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fixtures/lights_out.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="19" selection-start="638" selection-end="638" vertical-scroll-proportion="0.14377682">
               <folding />
             </state>
           </provider>
@@ -100,7 +109,7 @@
       <file leaf-file-name="cell.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lights_out/board/players/cell.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="262" selection-end="339" vertical-scroll-proportion="0.0">
+            <state line="14" column="73" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -304,6 +313,24 @@
         </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="players" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="lights_out" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="lights_out" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="lights_out" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="fixtures" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -586,13 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_defnintions/lights_out_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="40" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/lights_out.features">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="32" selection-start="391" selection-end="391" vertical-scroll-proportion="0.21492538">
@@ -603,13 +623,6 @@
     <entry file="file://$PROJECT_DIR$/lib/grid.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixtures/lights_out.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="6" selection-start="802" selection-end="818" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -638,13 +651,6 @@
     <entry file="file://$PROJECT_DIR$/lights_out/devtool/players/refresh.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lights_out/board/players/cell.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="262" selection-end="339" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -679,9 +685,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_defnintions/lights_out_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="15" selection-start="548" selection-end="548" vertical-scroll-proportion="0.17463617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lights_out/board/players/cell.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="73" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lights_out/board/players/board.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="10" selection-start="455" selection-end="455" vertical-scroll-proportion="0.76609445">
+        <state line="14" column="7" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixtures/lights_out.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="19" selection-start="638" selection-end="638" vertical-scroll-proportion="0.14377682">
           <folding />
         </state>
       </provider>

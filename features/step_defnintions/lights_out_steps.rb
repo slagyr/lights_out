@@ -20,6 +20,7 @@ end
 
 When /^I press light "([^\"]*)"$/ do |cell|
   @scene.find(cell).mouse_clicked(nil)
+  @scene.update
   sleep(1)
 end
 

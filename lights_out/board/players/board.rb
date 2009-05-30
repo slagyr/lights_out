@@ -15,7 +15,6 @@ module Board
     end
 
     level.text = "Level: #{@game.level}"
-    update
   end
 
   def reset_level

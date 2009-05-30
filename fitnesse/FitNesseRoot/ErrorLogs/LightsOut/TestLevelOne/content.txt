@@ -1,9 +1,9 @@
 !3 !-slim-!
-|'''Date: '''|!-10:57:09 AM (CDT) on Saturday, May 30, 2009-!|
+|'''Date: '''|!-11:12:37 AM (CDT) on Saturday, May 30, 2009-!|
 |'''Test Page: '''|.LightsOut.TestLevelOne|
-|'''Command: '''|!-ruby -rrubygems -I ./../ rubyslim/lib/run_ruby_slim.rb  8092-!|
+|'''Command: '''|!-ruby -rrubygems -I ./../ rubyslim/lib/run_ruby_slim.rb  8093-!|
 |'''Exit code: '''|!-0-!|
-|'''Time elapsed: '''|!-13.377 seconds-!|
+|'''Time elapsed: '''|!-13.251 seconds-!|
 ----'''Standard Error:'''
 {{{JRuby limited openssl loaded. gem install jruby-openssl for full support.
 http://wiki.jruby.org/wiki/JRuby_Builtin_OpenSSL

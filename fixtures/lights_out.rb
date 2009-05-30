@@ -26,6 +26,7 @@ module Fixtures
 
     def press(name)
       @scene.find(name).mouse_clicked(nil)
+      @scene.update
       sleep(1)
       return true
     end
