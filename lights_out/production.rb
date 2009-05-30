@@ -25,7 +25,7 @@ module Production
   # Hook #3.  Called when the production has fully opened.
   def production_opened
     @board = theater['default'].current_scene
-    @board.new_game
+    @board.new_game if @board.respond_to?(:new_game)
   end
 #
 #  # The system will call this methods when it wishes to close the production, perhaps when the user quits the
