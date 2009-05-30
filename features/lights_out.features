@@ -1,0 +1,18 @@
+Features: Playing Lights Out
+    In order to have fun
+    Users should be able to
+    play Lights Out by pushing buttons
+
+    Scenario: Playing Level 1
+        Given that Lights Out is running
+        When I press light "3, 0"
+        And I press light "3, 2"
+        And I press light "3, 4"
+        And I press light "4, 0"
+        And I press light "4, 2"
+        And I press light "4, 4"
+        Then the status should say "LEVEL COMPLETE!"
+        And the game should be quitable
+
+        
+
