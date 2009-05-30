@@ -1,0 +1,9 @@
+!define TEST_SYSTEM {slim}
+!define TEST_RUNNER {rubyslim/lib/run_ruby_slim.rb}
+!define COMMAND_PATTERN {ruby -rrubygems -I %p %m}
+!define PATH_SEPARATOR { -I }
+!define COLLAPSE_SETUP {true}
+!define COLLAPSE_TEARDOWN {true}
+!path ./../
+
+!contents -R2 -g -p -f -h

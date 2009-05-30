@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20090513</FitNesseVersion>
+  <rootPath>TestLevelOne</rootPath>
+  
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>2</exceptions>
+    </counts>
+    <content><![CDATA[<table border="1" cellspacing="0">
+<tr><td>Import</td>
+</tr>
+<tr><td>Fixtures</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0">
+<tr><td colspan="2">script</td>
+</tr>
+<tr><td>start</td>
+<td>lights_out <span class="error">Could not invoke constructor for Lights_out</span></td>
+</tr>
+</table>
+]]></content>
+    <relativePageName>TestLevelOne</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[Import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_1</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[start]]></col>
+                    <col><![CDATA[lights_out error(Could not invoke constructor for Lights_out)]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, Fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_0, make, scriptTableActor, lights_out]]]></instruction>
+        <slimResult><![CDATA[!error:Could not invoke constructor for Lights_out]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[!error:Could not invoke constructor for Lights_out]]></actual>
+                              <expected><![CDATA[lights_out]]></expected>
+                              <evaluationMessage><![CDATA[lights_out error(Could not invoke constructor for Lights_out)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+  
+</testResults>
+

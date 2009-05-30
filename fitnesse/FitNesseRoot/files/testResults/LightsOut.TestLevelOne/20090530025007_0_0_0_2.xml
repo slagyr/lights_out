@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20090513</FitNesseVersion>
+  <rootPath>TestLevelOne</rootPath>
+  
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>2</exceptions>
+    </counts>
+    <content><![CDATA[<table border="1" cellspacing="0">
+<tr><td colspan="2">script</td>
+</tr>
+<tr><td>start</td>
+<td>light_out <span class="error">Could not invoke constructor for Light_out</span></td>
+</tr>
+</table>
+]]></content>
+    <relativePageName>TestLevelOne</relativePageName>
+    
+        <tables>
+            <table>
+        <name>scriptTable_0</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[start]]></col>
+                    <col><![CDATA[light_out error(Could not invoke constructor for Light_out)]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_0_0, make, scriptTableActor, light_out]]]></instruction>
+        <slimResult><![CDATA[!error:Could not invoke constructor for Light_out]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_0_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[!error:Could not invoke constructor for Light_out]]></actual>
+                              <expected><![CDATA[light_out]]></expected>
+                              <evaluationMessage><![CDATA[light_out error(Could not invoke constructor for Light_out)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+  
+</testResults>
+

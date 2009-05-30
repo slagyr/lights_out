@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20090513</FitNesseVersion>
+  <rootPath>TestLevelOne</rootPath>
+  
+  <result>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>2</exceptions>
+    </counts>
+    <content><![CDATA[<H3> <span class="fail">Exceptions</span></H3><br/><a name="scriptTable_1_2"/><b></b><div class="collapse_rim"><div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div><a href="javascript:toggleCollapsable('8361129379472722502');"><img src="/files/images/collapsableClosed.gif" class="left" id="img8361129379472722502"/></a>&nbsp;<span class="meta">scriptTable_1_2 </span>
+
+	<div class="hidden" id="8361129379472722502"><pre>__EXCEPTION__:druby://127.0.0.1:9000 - #<Errno::ECONNREFUSED: Connection refused - connect(2)>
+/opt/local/lib/ruby/1.8/drb/drb.rb:736:in `open'
+/opt/local/lib/ruby/1.8/drb/drb.rb:729:in `each'
+/opt/local/lib/ruby/1.8/drb/drb.rb:729:in `open'
+/opt/local/lib/ruby/1.8/drb/drb.rb:1189:in `initialize'
+/opt/local/lib/ruby/1.8/drb/drb.rb:1169:in `new'
+/opt/local/lib/ruby/1.8/drb/drb.rb:1169:in `open'
+/opt/local/lib/ruby/1.8/drb/drb.rb:1085:in `method_missing'
+/opt/local/lib/ruby/1.8/drb/drb.rb:1103:in `with_friend'
+/opt/local/lib/ruby/1.8/drb/drb.rb:1084:in `method_missing'
+./../fixtures/lights_out.rb:18:in `close_production'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement_executor.rb:88:in `send'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement_executor.rb:88:in `call'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:45:in `call_method_at_index'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:25:in `exec'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:6:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `collect'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:29:in `serve_ruby_slim'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:12:in `run'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:36:in `call'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:36:in `serverTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:30:in `serviceTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:29:in `start'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:29:in `serviceTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `serve'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `start'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `serve'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:11:in `run'
+rubyslim/lib/run_ruby_slim.rb:7</pre></div>
+</div><a name="scriptTable_1_1"/><b></b><div class="collapse_rim"><div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div><a href="javascript:toggleCollapsable('5548923733500334703');"><img src="/files/images/collapsableClosed.gif" class="left" id="img5548923733500334703"/></a>&nbsp;<span class="meta">scriptTable_1_1 </span>
+
+	<div class="hidden" id="5548923733500334703"><pre>__EXCEPTION__:druby://127.0.0.1:9000 - #<Errno::ECONNREFUSED: Connection refused - connect(2)>
+/opt/local/lib/ruby/1.8/drb/drb.rb:736:in `open'
+/opt/local/lib/ruby/1.8/drb/drb.rb:729:in `each'
+/opt/local/lib/ruby/1.8/drb/drb.rb:729:in `open'
+/opt/local/lib/ruby/1.8/drb/drb.rb:1189:in `initialize'
+/opt/local/lib/ruby/1.8/drb/drb.rb:1169:in `new'
+/opt/local/lib/ruby/1.8/drb/drb.rb:1169:in `open'
+/opt/local/lib/ruby/1.8/drb/drb.rb:1085:in `method_missing'
+/opt/local/lib/ruby/1.8/drb/drb.rb:1103:in `with_friend'
+/opt/local/lib/ruby/1.8/drb/drb.rb:1084:in `method_missing'
+./../fixtures/lights_out.rb:12:in `start_production'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement_executor.rb:88:in `send'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement_executor.rb:88:in `call'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:45:in `call_method_at_index'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:25:in `exec'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:6:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `collect'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:29:in `serve_ruby_slim'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:12:in `run'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:36:in `call'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:36:in `serverTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:30:in `serviceTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:29:in `start'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:29:in `serviceTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `serve'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `start'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `serve'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:11:in `run'
+rubyslim/lib/run_ruby_slim.rb:7</pre></div>
+</div><hr/><table border="1" cellspacing="0">
+<tr><td>Import</td>
+</tr>
+<tr><td>Fixtures</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0">
+<tr><td colspan="2">script</td>
+</tr>
+<tr><td>start</td>
+<td><span class="pass">lights out</span></td>
+</tr>
+<tr><td colspan="2">start_production</td>
+</tr>
+<tr><td colspan="2">close_production</td>
+</tr>
+</table>
+]]></content>
+    <relativePageName>TestLevelOne</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[Import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_1</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[start]]></col>
+                    <col><![CDATA[pass(lights out)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[start_production]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[close_production]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, Fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_0, make, scriptTableActor, LightsOut]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[lights out]]></expected>
+                              <evaluationMessage><![CDATA[pass(lights out)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_1, call, scriptTableActor, start_production]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_1_1>scriptTable_1_1</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_1_1>scriptTable_1_1</a>]]></actual>
+                              <expected><![CDATA[start_production]]></expected>
+                              <evaluationMessage><![CDATA[start_production]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_2, call, scriptTableActor, close_production]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_1_2>scriptTable_1_2</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_2</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_1_2>scriptTable_1_2</a>]]></actual>
+                              <expected><![CDATA[close_production]]></expected>
+                              <evaluationMessage><![CDATA[close_production]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+  
+</testResults>
+

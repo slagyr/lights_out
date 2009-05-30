@@ -1,0 +1,581 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20090513</FitNesseVersion>
+  <rootPath>TestLevelOne</rootPath>
+  
+  <result>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>11</exceptions>
+    </counts>
+    <content><![CDATA[<H3> <span class="fail">Exceptions</span></H3><br/><a name="scriptTable_1_2"/><b></b><div class="collapse_rim"><div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div><a href="javascript:toggleCollapsable('-1938735098235255934');"><img src="/files/images/collapsableClosed.gif" class="left" id="img-1938735098235255934"/></a>&nbsp;<span class="meta">scriptTable_1_2 </span>
+
+	<div class="hidden" id="-1938735098235255934"><pre>__EXCEPTION__:undefined method `level' for nil:NilClass
+./../fixtures/lights_out.rb:34:in `level'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement_executor.rb:88:in `send'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement_executor.rb:88:in `call'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:45:in `call_method_at_index'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:25:in `exec'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:6:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `collect'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:29:in `serve_ruby_slim'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:12:in `run'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:36:in `call'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:36:in `serverTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:30:in `serviceTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:29:in `start'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:29:in `serviceTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `serve'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `start'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `serve'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:11:in `run'
+rubyslim/lib/run_ruby_slim.rb:7</pre></div>
+</div><a name="scriptTable_1_8"/><b></b><div class="collapse_rim"><div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div><a href="javascript:toggleCollapsable('2513677243533377132');"><img src="/files/images/collapsableClosed.gif" class="left" id="img2513677243533377132"/></a>&nbsp;<span class="meta">scriptTable_1_8 </span>
+
+	<div class="hidden" id="2513677243533377132"><pre>__EXCEPTION__:undefined method `find' for nil:NilClass
+./../fixtures/lights_out.rb:28:in `press'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement_executor.rb:88:in `send'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement_executor.rb:88:in `call'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:45:in `call_method_at_index'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:25:in `exec'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:6:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `collect'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:29:in `serve_ruby_slim'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:12:in `run'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:36:in `call'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:36:in `serverTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:30:in `serviceTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:29:in `start'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:29:in `serviceTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `serve'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `start'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `serve'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:11:in `run'
+rubyslim/lib/run_ruby_slim.rb:7</pre></div>
+</div><a name="scriptTable_1_4"/><b></b><div class="collapse_rim"><div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div><a href="javascript:toggleCollapsable('-3794394627239379465');"><img src="/files/images/collapsableClosed.gif" class="left" id="img-3794394627239379465"/></a>&nbsp;<span class="meta">scriptTable_1_4 </span>
+
+	<div class="hidden" id="-3794394627239379465"><pre>__EXCEPTION__:undefined method `find' for nil:NilClass
+./../fixtures/lights_out.rb:28:in `press'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement_executor.rb:88:in `send'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement_executor.rb:88:in `call'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:45:in `call_method_at_index'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:25:in `exec'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:6:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `collect'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:29:in `serve_ruby_slim'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:12:in `run'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:36:in `call'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:36:in `serverTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:30:in `serviceTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:29:in `start'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:29:in `serviceTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `serve'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `start'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `serve'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:11:in `run'
+rubyslim/lib/run_ruby_slim.rb:7</pre></div>
+</div><a name="scriptTable_1_6"/><b></b><div class="collapse_rim"><div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div><a href="javascript:toggleCollapsable('5897028797422336426');"><img src="/files/images/collapsableClosed.gif" class="left" id="img5897028797422336426"/></a>&nbsp;<span class="meta">scriptTable_1_6 </span>
+
+	<div class="hidden" id="5897028797422336426"><pre>__EXCEPTION__:undefined method `find' for nil:NilClass
+./../fixtures/lights_out.rb:28:in `press'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement_executor.rb:88:in `send'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement_executor.rb:88:in `call'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:45:in `call_method_at_index'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:25:in `exec'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:6:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `collect'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:29:in `serve_ruby_slim'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:12:in `run'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:36:in `call'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:36:in `serverTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:30:in `serviceTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:29:in `start'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:29:in `serviceTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `serve'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `start'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `serve'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:11:in `run'
+rubyslim/lib/run_ruby_slim.rb:7</pre></div>
+</div><a name="scriptTable_1_3"/><b></b><div class="collapse_rim"><div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div><a href="javascript:toggleCollapsable('-766115541952673661');"><img src="/files/images/collapsableClosed.gif" class="left" id="img-766115541952673661"/></a>&nbsp;<span class="meta">scriptTable_1_3 </span>
+
+	<div class="hidden" id="-766115541952673661"><pre>__EXCEPTION__:undefined method `find' for nil:NilClass
+./../fixtures/lights_out.rb:28:in `press'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement_executor.rb:88:in `send'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement_executor.rb:88:in `call'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:45:in `call_method_at_index'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:25:in `exec'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:6:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `collect'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:29:in `serve_ruby_slim'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:12:in `run'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:36:in `call'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:36:in `serverTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:30:in `serviceTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:29:in `start'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:29:in `serviceTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `serve'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `start'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `serve'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:11:in `run'
+rubyslim/lib/run_ruby_slim.rb:7</pre></div>
+</div><a name="scriptTable_1_1"/><b></b><div class="collapse_rim"><div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div><a href="javascript:toggleCollapsable('2435133691664775674');"><img src="/files/images/collapsableClosed.gif" class="left" id="img2435133691664775674"/></a>&nbsp;<span class="meta">scriptTable_1_1 </span>
+
+	<div class="hidden" id="2435133691664775674"><pre>__EXCEPTION__:undefined method `current_scene' for nil:NilClass
+./../fixtures/lights_out.rb:23:in `start_production'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement_executor.rb:88:in `send'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement_executor.rb:88:in `call'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:45:in `call_method_at_index'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:25:in `exec'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:6:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `collect'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:29:in `serve_ruby_slim'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:12:in `run'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:36:in `call'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:36:in `serverTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:30:in `serviceTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:29:in `start'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:29:in `serviceTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `serve'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `start'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `serve'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:11:in `run'
+rubyslim/lib/run_ruby_slim.rb:7</pre></div>
+</div><a name="scriptTable_1_5"/><b></b><div class="collapse_rim"><div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div><a href="javascript:toggleCollapsable('1041694828316447003');"><img src="/files/images/collapsableClosed.gif" class="left" id="img1041694828316447003"/></a>&nbsp;<span class="meta">scriptTable_1_5 </span>
+
+	<div class="hidden" id="1041694828316447003"><pre>__EXCEPTION__:undefined method `find' for nil:NilClass
+./../fixtures/lights_out.rb:28:in `press'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement_executor.rb:88:in `send'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement_executor.rb:88:in `call'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:45:in `call_method_at_index'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:25:in `exec'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:6:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `collect'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:29:in `serve_ruby_slim'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:12:in `run'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:36:in `call'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:36:in `serverTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:30:in `serviceTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:29:in `start'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:29:in `serviceTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `serve'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `start'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `serve'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:11:in `run'
+rubyslim/lib/run_ruby_slim.rb:7</pre></div>
+</div><a name="scriptTable_1_9"/><b></b><div class="collapse_rim"><div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div><a href="javascript:toggleCollapsable('2642556867859750918');"><img src="/files/images/collapsableClosed.gif" class="left" id="img2642556867859750918"/></a>&nbsp;<span class="meta">scriptTable_1_9 </span>
+
+	<div class="hidden" id="2642556867859750918"><pre>__EXCEPTION__:undefined method `status' for nil:NilClass
+./../fixtures/lights_out.rb:38:in `status'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement_executor.rb:88:in `send'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement_executor.rb:88:in `call'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:45:in `call_method_at_index'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:25:in `exec'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:6:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `collect'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:29:in `serve_ruby_slim'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:12:in `run'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:36:in `call'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:36:in `serverTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:30:in `serviceTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:29:in `start'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:29:in `serviceTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `serve'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `start'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `serve'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:11:in `run'
+rubyslim/lib/run_ruby_slim.rb:7</pre></div>
+</div><a name="scriptTable_1_7"/><b></b><div class="collapse_rim"><div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div><a href="javascript:toggleCollapsable('5463083692119604227');"><img src="/files/images/collapsableClosed.gif" class="left" id="img5463083692119604227"/></a>&nbsp;<span class="meta">scriptTable_1_7 </span>
+
+	<div class="hidden" id="5463083692119604227"><pre>__EXCEPTION__:undefined method `find' for nil:NilClass
+./../fixtures/lights_out.rb:28:in `press'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement_executor.rb:88:in `send'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement_executor.rb:88:in `call'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:45:in `call_method_at_index'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:25:in `exec'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/statement.rb:6:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `collect'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/list_executor.rb:10:in `execute'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:29:in `serve_ruby_slim'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:12:in `run'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:36:in `call'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:36:in `serverTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:30:in `serviceTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:29:in `start'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:29:in `serviceTask'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `serve'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `start'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/socket_service.rb:19:in `serve'
+/Users/micahmartin/Projects/lights_out/fitnesse/rubyslim/lib/ruby_slim.rb:11:in `run'
+rubyslim/lib/run_ruby_slim.rb:7</pre></div>
+</div><hr/><table border="1" cellspacing="0">
+<tr><td>Import</td>
+</tr>
+<tr><td>Fixtures</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0">
+<tr><td colspan="3">script</td>
+</tr>
+<tr><td>start</td>
+<td colspan="2"><span class="pass">lights out</span></td>
+</tr>
+<tr><td colspan="3">start_production</td>
+</tr>
+<tr><td>check</td>
+<td>level</td>
+<td><span class="error">Exception: <a href=#scriptTable_1_2>scriptTable_1_2</a></span></td>
+</tr>
+<tr><td>press</td>
+<td colspan="2">3, 0</td>
+</tr>
+<tr><td>press</td>
+<td colspan="2">3, 2</td>
+</tr>
+<tr><td>press</td>
+<td colspan="2">3, 4</td>
+</tr>
+<tr><td>press</td>
+<td colspan="2">4, 0</td>
+</tr>
+<tr><td>press</td>
+<td colspan="2">4, 2</td>
+</tr>
+<tr><td>press</td>
+<td colspan="2">4, 4</td>
+</tr>
+<tr><td>check</td>
+<td>status</td>
+<td><span class="error">Exception: <a href=#scriptTable_1_9>scriptTable_1_9</a></span></td>
+</tr>
+<tr><td colspan="3"><span class="pass">close_production</span></td>
+</tr>
+</table>
+]]></content>
+    <relativePageName>TestLevelOne</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[Import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_1</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[start]]></col>
+                    <col><![CDATA[pass(lights out)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[start_production]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[level]]></col>
+                    <col><![CDATA[error(Exception: <a href=#scriptTable_1_2>scriptTable_1_2</a>)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[press]]></col>
+                    <col><![CDATA[3, 0]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[press]]></col>
+                    <col><![CDATA[3, 2]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[press]]></col>
+                    <col><![CDATA[3, 4]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[press]]></col>
+                    <col><![CDATA[4, 0]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[press]]></col>
+                    <col><![CDATA[4, 2]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[press]]></col>
+                    <col><![CDATA[4, 4]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[status]]></col>
+                    <col><![CDATA[error(Exception: <a href=#scriptTable_1_9>scriptTable_1_9</a>)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[pass(close_production)]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, Fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_0, make, scriptTableActor, LightsOut]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[lights out]]></expected>
+                              <evaluationMessage><![CDATA[pass(lights out)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_1, call, scriptTableActor, start_production]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_1_1>scriptTable_1_1</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_1_1>scriptTable_1_1</a>]]></actual>
+                              <expected><![CDATA[start_production]]></expected>
+                              <evaluationMessage><![CDATA[start_production]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_2, call, scriptTableActor, level]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_1_2>scriptTable_1_2</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_2</instructionId>
+          <col>2</col>
+          <row>3</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_1_2>scriptTable_1_2</a>]]></actual>
+                              <expected><![CDATA[Level: 1]]></expected>
+                              <evaluationMessage><![CDATA[error(Exception: <a href=#scriptTable_1_2>scriptTable_1_2</a>)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_3, call, scriptTableActor, press, 3, 0]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_1_3>scriptTable_1_3</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_3</instructionId>
+          <col>1</col>
+          <row>4</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_3</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_1_3>scriptTable_1_3</a>]]></actual>
+                              <expected><![CDATA[press]]></expected>
+                              <evaluationMessage><![CDATA[press]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_4, call, scriptTableActor, press, 3, 2]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_1_4>scriptTable_1_4</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_4</instructionId>
+          <col>1</col>
+          <row>5</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_4</instructionId>
+          <col>0</col>
+          <row>5</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_1_4>scriptTable_1_4</a>]]></actual>
+                              <expected><![CDATA[press]]></expected>
+                              <evaluationMessage><![CDATA[press]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_5, call, scriptTableActor, press, 3, 4]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_1_5>scriptTable_1_5</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_5</instructionId>
+          <col>1</col>
+          <row>6</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_5</instructionId>
+          <col>0</col>
+          <row>6</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_1_5>scriptTable_1_5</a>]]></actual>
+                              <expected><![CDATA[press]]></expected>
+                              <evaluationMessage><![CDATA[press]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_6, call, scriptTableActor, press, 4, 0]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_1_6>scriptTable_1_6</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_6</instructionId>
+          <col>1</col>
+          <row>7</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_6</instructionId>
+          <col>0</col>
+          <row>7</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_1_6>scriptTable_1_6</a>]]></actual>
+                              <expected><![CDATA[press]]></expected>
+                              <evaluationMessage><![CDATA[press]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_7, call, scriptTableActor, press, 4, 2]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_1_7>scriptTable_1_7</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_7</instructionId>
+          <col>1</col>
+          <row>8</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_7</instructionId>
+          <col>0</col>
+          <row>8</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_1_7>scriptTable_1_7</a>]]></actual>
+                              <expected><![CDATA[press]]></expected>
+                              <evaluationMessage><![CDATA[press]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_8, call, scriptTableActor, press, 4, 4]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_1_8>scriptTable_1_8</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_8</instructionId>
+          <col>1</col>
+          <row>9</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_8</instructionId>
+          <col>0</col>
+          <row>9</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_1_8>scriptTable_1_8</a>]]></actual>
+                              <expected><![CDATA[press]]></expected>
+                              <evaluationMessage><![CDATA[press]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_9, call, scriptTableActor, status]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_1_9>scriptTable_1_9</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_9</instructionId>
+          <col>2</col>
+          <row>10</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_1_9>scriptTable_1_9</a>]]></actual>
+                              <expected><![CDATA[LEVEL COMPLETE!]]></expected>
+                              <evaluationMessage><![CDATA[error(Exception: <a href=#scriptTable_1_9>scriptTable_1_9</a>)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_10, call, scriptTableActor, close_production]]]></instruction>
+        <slimResult><![CDATA[true]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_10</instructionId>
+          <col>0</col>
+          <row>11</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[true]]></actual>
+                              <expected><![CDATA[close_production]]></expected>
+                              <evaluationMessage><![CDATA[pass(close_production)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+  
+</testResults>
+

@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20090513</FitNesseVersion>
+  <rootPath>TestLevelOne</rootPath>
+  
+  <result>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <content><![CDATA[<table border="1" cellspacing="0">
+<tr><td>Import</td>
+</tr>
+<tr><td>Fixtures</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0">
+<tr><td colspan="2">script</td>
+</tr>
+<tr><td>start</td>
+<td><span class="pass">lights out</span></td>
+</tr>
+<tr><td colspan="2">start_production</td>
+</tr>
+<tr><td colspan="2">close_production</td>
+</tr>
+</table>
+]]></content>
+    <relativePageName>TestLevelOne</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[Import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_1</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[start]]></col>
+                    <col><![CDATA[pass(lights out)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[start_production]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[close_production]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, Fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_0, make, scriptTableActor, LightsOut]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[lights out]]></expected>
+                              <evaluationMessage><![CDATA[pass(lights out)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_1, call, scriptTableActor, start_production]]]></instruction>
+        <slimResult><![CDATA[Limelight::Scene[id: , name: board]]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Limelight::Scene[id: , name: board]]]></actual>
+                              <expected><![CDATA[start_production]]></expected>
+                              <evaluationMessage><![CDATA[start_production]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_2, call, scriptTableActor, close_production]]]></instruction>
+        <slimResult><![CDATA[#<Thread:0x6c86df>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_2</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[#<Thread:0x6c86df>]]></actual>
+                              <expected><![CDATA[close_production]]></expected>
+                              <evaluationMessage><![CDATA[close_production]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+  
+</testResults>
+

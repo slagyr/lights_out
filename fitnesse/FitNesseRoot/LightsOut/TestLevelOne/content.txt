@@ -1,0 +1,15 @@
+|Import|
+|Fixtures|
+
+!|script|
+|start|lights out|
+|start_production|
+|check|level|Level: 1|
+|press|3, 0|
+|press|3, 2|
+|press|3, 4|
+|press|4, 0|
+|press|4, 2|
+|press|4, 4|
+|check|status|LEVEL COMPLETE!|
+|close_production|

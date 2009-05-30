@@ -1,0 +1,365 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20090513</FitNesseVersion>
+  <rootPath>TestLevelOne</rootPath>
+  
+  <result>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <content><![CDATA[<table border="1" cellspacing="0">
+<tr><td>Import</td>
+</tr>
+<tr><td>Fixtures</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0">
+<tr><td colspan="3">script</td>
+</tr>
+<tr><td>start</td>
+<td colspan="2"><span class="pass">lights out</span></td>
+</tr>
+<tr><td colspan="3"><span class="pass">start_production</span></td>
+</tr>
+<tr><td>check</td>
+<td>level</td>
+<td><span class="pass">Level: 1</span></td>
+</tr>
+<tr><td>press</td>
+<td colspan="2">3, 0</td>
+</tr>
+<tr><td>press</td>
+<td colspan="2">3, 2</td>
+</tr>
+<tr><td>press</td>
+<td colspan="2">3, 4</td>
+</tr>
+<tr><td>press</td>
+<td colspan="2">4, 0</td>
+</tr>
+<tr><td>press</td>
+<td colspan="2">4, 2</td>
+</tr>
+<tr><td>press</td>
+<td colspan="2">4, 4</td>
+</tr>
+<tr><td>check</td>
+<td>status</td>
+<td><span class="pass">LEVEL COMPLETE!</span></td>
+</tr>
+<tr><td colspan="3"><span class="pass">close_production</span></td>
+</tr>
+</table>
+]]></content>
+    <relativePageName>TestLevelOne</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[Import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_1</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[start]]></col>
+                    <col><![CDATA[pass(lights out)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[pass(start_production)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[level]]></col>
+                    <col><![CDATA[pass(Level: 1)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[press]]></col>
+                    <col><![CDATA[3, 0]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[press]]></col>
+                    <col><![CDATA[3, 2]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[press]]></col>
+                    <col><![CDATA[3, 4]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[press]]></col>
+                    <col><![CDATA[4, 0]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[press]]></col>
+                    <col><![CDATA[4, 2]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[press]]></col>
+                    <col><![CDATA[4, 4]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[status]]></col>
+                    <col><![CDATA[pass(LEVEL COMPLETE!)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[pass(close_production)]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, Fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_0, make, scriptTableActor, LightsOut]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[lights out]]></expected>
+                              <evaluationMessage><![CDATA[pass(lights out)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_1, call, scriptTableActor, start_production]]]></instruction>
+        <slimResult><![CDATA[true]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[true]]></actual>
+                              <expected><![CDATA[start_production]]></expected>
+                              <evaluationMessage><![CDATA[pass(start_production)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_2, call, scriptTableActor, level]]]></instruction>
+        <slimResult><![CDATA[Level: 1]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_2</instructionId>
+          <col>2</col>
+          <row>3</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[Level: 1]]></actual>
+                              <expected><![CDATA[Level: 1]]></expected>
+                              <evaluationMessage><![CDATA[pass(Level: 1)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_3, call, scriptTableActor, press, 3, 0]]]></instruction>
+        <slimResult><![CDATA[Level: 1]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_3</instructionId>
+          <col>1</col>
+          <row>4</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_3</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Level: 1]]></actual>
+                              <expected><![CDATA[press]]></expected>
+                              <evaluationMessage><![CDATA[press]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_4, call, scriptTableActor, press, 3, 2]]]></instruction>
+        <slimResult><![CDATA[Level: 1]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_4</instructionId>
+          <col>1</col>
+          <row>5</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_4</instructionId>
+          <col>0</col>
+          <row>5</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Level: 1]]></actual>
+                              <expected><![CDATA[press]]></expected>
+                              <evaluationMessage><![CDATA[press]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_5, call, scriptTableActor, press, 3, 4]]]></instruction>
+        <slimResult><![CDATA[Level: 1]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_5</instructionId>
+          <col>1</col>
+          <row>6</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_5</instructionId>
+          <col>0</col>
+          <row>6</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Level: 1]]></actual>
+                              <expected><![CDATA[press]]></expected>
+                              <evaluationMessage><![CDATA[press]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_6, call, scriptTableActor, press, 4, 0]]]></instruction>
+        <slimResult><![CDATA[Level: 1]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_6</instructionId>
+          <col>1</col>
+          <row>7</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_6</instructionId>
+          <col>0</col>
+          <row>7</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Level: 1]]></actual>
+                              <expected><![CDATA[press]]></expected>
+                              <evaluationMessage><![CDATA[press]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_7, call, scriptTableActor, press, 4, 2]]]></instruction>
+        <slimResult><![CDATA[Level: 1]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_7</instructionId>
+          <col>1</col>
+          <row>8</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_7</instructionId>
+          <col>0</col>
+          <row>8</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Level: 1]]></actual>
+                              <expected><![CDATA[press]]></expected>
+                              <evaluationMessage><![CDATA[press]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_8, call, scriptTableActor, press, 4, 4]]]></instruction>
+        <slimResult><![CDATA[Level: 1]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_8</instructionId>
+          <col>1</col>
+          <row>9</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_8</instructionId>
+          <col>0</col>
+          <row>9</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Level: 1]]></actual>
+                              <expected><![CDATA[press]]></expected>
+                              <evaluationMessage><![CDATA[press]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_9, call, scriptTableActor, status]]]></instruction>
+        <slimResult><![CDATA[LEVEL COMPLETE!]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_9</instructionId>
+          <col>2</col>
+          <row>10</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[LEVEL COMPLETE!]]></actual>
+                              <expected><![CDATA[LEVEL COMPLETE!]]></expected>
+                              <evaluationMessage><![CDATA[pass(LEVEL COMPLETE!)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_10, call, scriptTableActor, close_production]]]></instruction>
+        <slimResult><![CDATA[true]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_10</instructionId>
+          <col>0</col>
+          <row>11</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[true]]></actual>
+                              <expected><![CDATA[close_production]]></expected>
+                              <evaluationMessage><![CDATA[pass(close_production)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+  
+</testResults>
+
