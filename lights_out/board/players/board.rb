@@ -2,7 +2,7 @@ module Board
 
   attr_reader :game, :grid
   prop_reader :status, :level, :next_level_button, :reset_level_button, :new_game_button
-
+#
   def refresh
     find_by_name("cell").each do |cell|
       cell.on = @game.grid.cell(cell.row, cell.col).on?

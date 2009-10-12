@@ -6,7 +6,7 @@ board {
   top_padding 47
   horizontal_alignment :center
 }
-
+#
 row {
   width "100%"
   height 63
